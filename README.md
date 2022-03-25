@@ -1,5 +1,5 @@
 
-# Practica 1, Grupo 4
+# Proyecto 1, Grupo 4
 
 | Carné         | Nombre                         |
 | --------      | --------                       |
@@ -8,120 +8,119 @@
 | 201800722     | José Daniel Velásquez Orozco   |
 | 201807316     | Jorge Isaac Xicol Vicente      |
 
+## Topologías
+### Topología 1
+![](https://i.imgur.com/VFAMoaH.png)
+
+### Topología 2
+![](https://i.imgur.com/2bamS4S.png)
+
+### Topología 3
+![](https://i.imgur.com/WhBnIoX.png)
+
+### Configuraciones en Consola
+VTP y VLANS de topología 1
+<br>
+Switch 1
+
+![](https://i.imgur.com/VI75lho.png)
+
+![](https://i.imgur.com/XXtT8av.png)
+
+![](https://i.imgur.com/PZ1N06h.png)
+
+Switch 2
+<br>
+
+![](https://i.imgur.com/VKq1Ay6.png)
+
+![](https://i.imgur.com/lZEaubB.png)
+
+![](https://i.imgur.com/lLGAN5C.png)
+
+Switch 3
+<br>
+
+![](https://i.imgur.com/nLs1Q0f.png)
+
+![](https://i.imgur.com/XHJeTbR.png)
+
+![](https://i.imgur.com/u8zIyQ3.png)
+
+Asignación de IP topologia 1
+
+Recursos Humanos 
+<br>
+
+![](https://i.imgur.com/jKEt0IE.png)
+
+![](https://i.imgur.com/cctUl67.png)
 
 
+Contabilidad
+<br>
 
+![](https://i.imgur.com/ksVczm7.png)
 
-# Configuracion VPCs
+![](https://i.imgur.com/AV2450G.png)
 
-|               | Carnet    |IP|
-| --------      | --------  |--------|
-| Coordinador   | 201807316 |192.168.14.10|
-| Compañero 1   | 201513626 |192.168.14.20|
-| Compañero 2   | 201800516 |192.168.14.30|
-| Compañero 3   | 201800722 |192.168.14.40|
+Informatica
+<br>
 
-Configuración de VPC con MAC 00 - Isaac Xicol
+![](https://i.imgur.com/GqqXUXU.png)
 
-![](https://i.imgur.com/M3BrhqH.jpg)
+Ventas
+<br>
 
-![](https://i.imgur.com/eMXkrQP.jpg)
+![](https://i.imgur.com/e5Bl8kT.png)
 
-Configuración de VPC con MAC 01 - Manuel
+VTP y VLANS de topología 2
 
-![](https://i.imgur.com/n54FBq7.png)
+![](https://i.imgur.com/rj5pWqv.png)
 
+Configuración Modo Trunk
 
-Configuración de VPC con MAC 02 - Mynor
+![](https://i.imgur.com/UOMPiYW.png)
 
-![](https://i.imgur.com/68s6lEu.png)
+Asignación de IP
+<br>
 
-Configuración de VPC con MAC 03 - Daniel
+![](https://i.imgur.com/LhdTn6A.png)
 
-![](https://i.imgur.com/wfgrbwp.png)
+VTP
 
-# Configuracion de las nubes
+![](https://i.imgur.com/XxHvPOb.png)
 
-A continuacion se muestra una tabla resumen sobre UDP Tunel, con sus puertos locales y remotos.
+Configuraciones en topología 3
+Asignación de IP
 
+![](https://i.imgur.com/21DNm3d.png)
 
-# Pings entre host
-Se realiza las pruebas pertinentes a cada maquina utilizada por cada estudiante, con el fin de comprobar la conexion entre maquinas.
-### Pings en MAC 00 (Coordinador Isaac Xicol - 201807316)
+Configuración Modo Trunkal
 
-Ping de 192.168.14.10 a 192.168.14.20 (Isaac a Manuel)
+![](https://i.imgur.com/MjjFTgZ.png)
 
-![](https://i.imgur.com/J6IYavQ.jpg)
+Mostrar VLANS
 
-Ping de 192.168.14.10 a 192.168.14.30 (Isaac a Mynor)
+![](https://i.imgur.com/d76UAgp.png)
 
+Mostrar Status de VLANS:
 
-![](https://i.imgur.com/YgZ0aJr.jpg)
+![](https://i.imgur.com/0fVrX0Y.png)
 
-Ping de 192.168.14.10 a 192.168.14.40 (Isaac a Daniel)
+Permisos de VLANS:
 
+![](https://i.imgur.com/PP0Diy9.png)
 
-![](https://i.imgur.com/yx0kkLI.jpg)
+Agregar grupos:
 
-### Pings en MAC 01 (Estudiante Manuel De Mata - 201513626)
+![](https://i.imgur.com/nW9rvVg.png)
 
-Ping de 192.168.14.20 a 192.168.14.10 Manuel a Jorge
+Mostrar interfaces configurados en modo Trunk:
 
-![](https://i.imgur.com/wCU8WYr.png)
+![](https://i.imgur.com/H3APNyi.png)
 
-Ping de 192.168.14.20 a 192.168.14.40 Manuel a Daniel
+Configuración Modo Acceso
+<br>
 
-![](https://i.imgur.com/Irv8EFR.png)
-
-Ping de 192.168.14.20 a 192.168.14.30 Manuel a Mynor
-
-![](https://i.imgur.com/dtWva4H.png)
-
-
-### Pings en MAC 02 (Estudiante Mynor Saban - 201800516)
-Ping de 192.168.14.30 a 192.168.14.10 Mynor a Jorge
-
-![](https://i.imgur.com/L1P2d7G.png)
-
-Ping de 192.168.14.30 a 192.168.14.20 Mynor a Manuel
-
-![](https://i.imgur.com/EbqrDPI.png)
-
-Ping de 192.168.14.30 a 192.168.14.40 Mynor a Daniel
-
-![](https://i.imgur.com/DG9Pwcs.png)
-
-### Pings en MAC 03 (Estudiante Daniel Velásquez - 201800722)
-
-Ping de 192.168.14.40 a 192.168.14.10 Daniel a Jorge
-
-![](https://i.imgur.com/gbBvmju.png)
-
-Ping de 192.168.14.40 a 192.168.14.20 Daniel a Manuel
-
-![](https://i.imgur.com/uwnph6q.png)
-
-Ping de 192.168.14.40 a 192.168.14.20 Daniel a Mynor
-
-![](https://i.imgur.com/PWDla9O.png)
-
-# Topologías
-Se muestra el diagrama/topología realizado en GNS3 de cada miembro.
-
-Coordinador Isaac Xicol - 201807316
-
-![](https://i.imgur.com/KWgG8ze.jpg)
-
-Compañero 1 Manuel De Mata - 201513626
-
-![](https://i.imgur.com/39QIMOG.png)
-
-Compañero 2 Mynor Saban - 201800516
-
-![](https://i.imgur.com/VpJIcsM.png)
-
-Compañero 3 Daniel Velásquez - 201800722
-
-![](https://i.imgur.com/I5CUyWp.png)
-
-
+![](https://i.imgur.com/AAA2mZT.png)
