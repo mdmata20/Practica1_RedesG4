@@ -8,6 +8,26 @@
 | 201800722     | José Daniel Velásquez Orozco   |
 | 201807316     | Jorge Isaac Xicol Vicente      |
 
+## Requerimientos para Ejecutar el archivo de GNS3
+- Sistema Operativo Windows (10 u 11)
+- Mínimo 8 GB de RAM (Recomendado >= 12 GB)
+- Procesador mínimo 2.1 GHz (Recomendado >= 3.0 GHz)
+- Espacio >= 1 MB en Disco Duro
+- Simulador GNS3
+
+## Comandos Utilizados
+| Comando      | Función                         |
+| --------     | --------                        |
+| *configure terminal* | Entra al modo terminal para configuraciones en los switches. 
+| *vlan* *n* | Crea una VLAN
+| *name* *nombre* | Especifica nombre a VLAN
+| *vtp domain group* | Asignar grupo a las VLAN en modo trunkal
+| *vtp password* | Asigna contraseña a la VLAN
+| *vtp version* | Especifica la versión con la que se trabajará
+| *vtp mode (client / server)* | Especifica si se establece en modo cliente o servidor
+| *switchport mode (trunk/access)* | Especifica el puerto en modo truncal o acceso
+| *sw (trunk/access) allowed VLAN ...* | Da permisos a VLANs especificadas en modo acceso o truncal.
+
 ## Topologías
 ### Topología 1
 ![](https://i.imgur.com/VFAMoaH.png)
